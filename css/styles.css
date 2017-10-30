@@ -119,24 +119,24 @@ html, body{
   text-shadow: 7px 4px 12px rgb(0, 0, 0);
 }
 #img1{
-	background-image: url(../lib/img1.jpg);
+	background-image: url(../lib/img1.JPG);
 	background-size:cover;
 	background-position: center;
 }
 #img2{
-	background-image: url(../lib/img22.jpg);
+	background-image: url(../lib/img22.JPG);
 	background-size:cover;
 	background-position: center;
 }
 #img3{
-	background-image: url(../lib/img31.jpg);
+	background-image: url(../lib/img31.JPG);
 	background-size:cover;
 	background-position: center;
 }
 
 
 #img4{
-	background-image: url(../lib/img4.jpg);
+	background-image: url(../lib/img4.JPG);
 	background-size:cover;
 	background-position: 0 550px;
 	grid-row: 2;
@@ -145,7 +145,7 @@ html, body{
 }
 
 #img5{
-	background-image: url(../lib/img5.jpg);
+	background-image: url(../lib/img5.JPG);
 	background-size:cover;
 	background-position: 0 300px;
 	grid-row: 3;
