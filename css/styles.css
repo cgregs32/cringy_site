@@ -21,6 +21,7 @@ html, body{
 }
 
 
+
 /*==========================SIDE BAR================================*/
 .container-sidebar{
 	display: grid;
@@ -119,24 +120,24 @@ html, body{
   text-shadow: 7px 4px 12px rgb(0, 0, 0);
 }
 #img1{
-	background-image: url(../lib/img1.JPG);
+	background-image: url(../lib/img1.jpg);
 	background-size:cover;
 	background-position: center;
 }
 #img2{
-	background-image: url(../lib/img22.JPG);
+	background-image: url(../lib/img22.jpg);
 	background-size:cover;
 	background-position: center;
 }
 #img3{
-	background-image: url(../lib/img31.JPG);
+	background-image: url(../lib/img31.jpg);
 	background-size:cover;
 	background-position: center;
 }
 
 
 #img4{
-	background-image: url(../lib/img4.JPG);
+	background-image: url(../lib/img4.jpg);
 	background-size:cover;
 	background-position: 0 550px;
 	grid-row: 2;
@@ -145,7 +146,7 @@ html, body{
 }
 
 #img5{
-	background-image: url(../lib/img5.JPG);
+	background-image: url(../lib/img5.jpg);
 	background-size:cover;
 	background-position: 0 300px;
 	grid-row: 3;
@@ -220,7 +221,7 @@ html, body{
 #profile2{
   grid-column:2/4 ;
   grid-row:1 ;
-  background: #EE6352;
+  background: #FFCC00;
 }
 #profile2 h3{
   font: bold 34px 'Montserrat', sans-serif;
@@ -242,7 +243,7 @@ html, body{
 #profile3{
   grid-column: 1/3;
   grid-row: 2;
-  background: #EE6352;
+  background: #FFCC00;
 
 }
 #profile3 h3{
@@ -282,7 +283,7 @@ html, body{
 #profile6{
   grid-column: 2/4;
   grid-row: 3;
-  background: #EE6352;
+  background: #FFCC00;
 }
 #profile6 h3{
   font: bold 34px 'Montserrat', sans-serif;
@@ -302,6 +303,15 @@ html, body{
   padding-right: 10px;
 }
 /*=======================Contact ===========================*/
+.vision-content{
+  display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: 130px 620px;
+	grid-gap: 1em;
+	padding: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .contact-content{
   display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -437,7 +447,93 @@ iframe{
 .fa-codepen{
   color: #212121;
 }
+/*=================Vision==============*/
+.wrapper6{
+  grid-column: 1/4;
+  display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: 1fr 1fr 1fr;
+  grid-gap: .5em;
+  font-size: 42px;
+}
 
+.vision-content{
+    background-color: #ccc;
+}
+
+.vision-content h1{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #004E64;
+}
+
+@keyframes vision1 {
+  0%  {top: 0px;}
+  50% {top: 80px;}
+  100% {top: 0px;}
+}
+#vision1:hover{
+  animation-timing-function: linear;
+  position: relative;
+  animation-name: vision1;
+  animation-duration: 1s;
+  animation: vision2 1s linear;
+}
+
+#vision1{
+  border: 5px solid black;
+  border-radius: 50%;
+  text-align: center;
+  width: 550px;
+  justify-self: center;
+  background-color: #82D4BB;
+
+}
+
+@keyframes vision2 {
+  0%  {top: 0px;}
+  50% {top: 80px;}
+  100% {top: 0px;}
+}
+#vision2:hover{
+  animation-timing-function: linear;
+  position: relative;
+  animation-name: vision2;
+  animation-duration: 1s;
+}
+
+#vision2{
+  border: 5px solid black;
+  border-radius: 50%;
+  text-align: center;
+  width: 550px;
+  justify-self: center;
+  background-color: #8E8DBE;
+}
+
+@keyframes vision3 {
+  0%  {top: 0px;;}
+  50% {top: -80px;}
+  100% {top: 0px;}
+}
+#vision3:hover{
+  animation-timing-function: linear;
+  position: relative;
+  animation-name: vision3;
+  animation-duration: 1s;
+}
+
+
+#vision3{
+  border: 5px solid black;
+  border-radius: 50%;
+  text-align: center;
+  width: 550px;
+  justify-self: center;
+  background-color: #A9E4EF;
+
+}
 /*=============Shape Style==================*/
 #shape1{
 	grid-column: 1;
